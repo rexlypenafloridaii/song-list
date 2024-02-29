@@ -7,3 +7,7 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Song.create(title: "Make the Road by Walking", album: "Menahan Street Band", artist: "Menahan Street Band", year: 2008)
+Song.create(title: "Move On Up", album: "Curtis", artist: "Curtis Mayfield", year: 1971)
+Song.create(title: "Derezzed", album: "Tron: Legacy", artist: "Daft Punk", year: 2010)
